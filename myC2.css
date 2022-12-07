@@ -1,0 +1,116 @@
+*{ 
+   margin: 0;
+   padding: 0;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(./font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(./font/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppin-semibold;
+    src: url(./font/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(./font/Poppins-Bold.ttf);
+}
+
+:root{
+    /* colors  */
+    --base : #0B0E13;
+    --primary-color: #27DEBF;
+    --secondry-color: #71FCE5;
+    --main-color: #055E4E;
+    --gradient-primary: 45deg, #27DEBE, #055E4E;
+    --color-primary-04: rgb(39, 222, 191, 4%);
+    --color-white-80: rgb(255,255,255, 80%);
+    --color-black: #000000;
+    --PanelBg: rgb(4,106,45);
+    --PanelGradient: linear-gradient(0deg, rgba(4,106,45,1) 18%, rgba(84,167,115,1) 56%);
+
+
+    /* fonts  */
+    --font-poppins-regular: Poppins-Regular;
+    --font-poppins-medium: Poppins-Medium;
+    --font-poppins-bold: Poppins-Bold;
+    --font-poppins-semibold: Poppin-semibold;
+
+
+    /* font size  */
+    --font-54: 54px;
+    --font-48: 48px;
+    --font-44: 44px;
+    --font-38: 38px;
+    --font-32: 32px;
+    --font-24: 24px;
+    --font-16: 16px;
+    --font-14: 14px;
+    --font-12: 12px;
+
+
+    /* line height  */
+    --line-60 : 60px;
+    --line-38 : 38px;
+    --line-30 : 30px;
+    --line-22 : 22px;
+    --line-20 : 20px;           
+}
+
+html{ 
+    height: 100%;
+}
+
+.page{
+    height: 100%;
+    color: var(--color-white-80);
+    background-color: var(--base);
+}
+
+nav{
+    height: 60px;
+    border: solid 1px rgb(208, 208, 208);
+}
+
+.parent{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    
+    
+}
+
+.home-pic{
+    display: flex;
+    justify-content: center;
+}
+
+.analog{
+
+}
+
+.analog-card, .digital-card{
+    height: 300px;
+    width: 320px;
+    border: solid 1px white;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-top: auto;
+    background: #020c0a;
+}
+
